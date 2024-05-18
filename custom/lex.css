@@ -1,0 +1,26 @@
+#app-mount > * {
+    animation: disappear 600s 300s forwards;
+}
+#app-mount {
+    animation: funny 1ms 300s forwards;
+}
+
+@keyframes disappear {
+    0% {
+        opacity: 100%;
+    }
+    100% {
+        opacity: 0%;
+    }
+}
+
+@keyframes funny {
+0% {}
+100% {
+        background:  url(https://i.kym-cdn.com/photos/images/newsfeed/002/515/832/ee7.jpg) no-repeat center center fixed; 
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+}
+}
